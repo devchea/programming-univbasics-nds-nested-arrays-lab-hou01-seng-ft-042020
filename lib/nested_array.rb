@@ -39,7 +39,7 @@ def sorted_matrix
       "Avocadoes",
       "Asparagus"
     ],
-    CONVENTIONAL_PRODUCE = [
+    CONVENTIONAL_PRODUCE.sort = [
       "Grapefruit",
       "Pineapple",
       "Oranges",
@@ -47,7 +47,6 @@ def sorted_matrix
       "Eggplant"
     ]
   ]
-  return produce_storage_room.sort
 end
 
 def matrix_lookup(matrix, row, column)
